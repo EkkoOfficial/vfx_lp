@@ -48,16 +48,17 @@ body{
 section{
 	margin-top: 150px;
 }
-.green-section{
+.red-section{
 	background-color:#C71819;
 }
-.white-section{
+.Black-section{
 	background-color:#222222;
 }
 .light-gray-section{
 	background-color: #444444;
 }
 img{width:100%;}
+#vfx-main-logo{width:20%;}
 
 /*blockquote*/
 blockquote.bq{
@@ -72,7 +73,7 @@ blockquote.bq{
 
 /*links*/
 a{
-	color:#aaaaaa;
+	color:#efefef;
 	-webkit-transition:all .2s ease-in-out;
 			transition:all .2s ease-in-out;
 }
@@ -91,7 +92,7 @@ a.link:after{
 			transition:all .2s ease-in-out;
 }
 a:hover, a:focus{
-	color:#aaaaaa;
+	color:#efefef;
 	text-decoration: none;
 }
 a:hover:after{
@@ -100,15 +101,15 @@ a:hover:after{
 /*texts*/
 .montserrat-text{font-family: "Montserrat", sans-serif; font-weight: 700}
 .open-sans-text{font-family: "Open sans", sans-serif}
-.white-text{color: #222222;}
+.white-text{color: #efefef;}
 .green-text{color:#C71819;}
-.gray-text{color:#efefef;}
+.gray-text{color:#aaaaaa;}
 
 .uppercase{text-transform: uppercase;}
 .italic{font-style: italic;}
 p{
 	font-family: "Open sans", sans-serif;
-	color:#aaaaaa;
+	color:#efefef;
 	line-height: 30px;
 }
 ul.social-icons li a:hover{
@@ -127,7 +128,7 @@ ul.social-icons li a:hover{
 	font-weight: 700;
 	font-size: 30px;
 	text-transform: uppercase;
-	color:#aaaaaa;
+	color:#efefef;
 	position: relative;
 	display: inline-block;
 	margin-bottom: 20px;
@@ -144,7 +145,7 @@ ul.social-icons li a:hover{
 }
 .section-title p{
 	line-height: 24px;
-	color:#aaaaaa;
+	color:#efefef;
 }
 @media (max-width: 991px) {
 	.section-title{
@@ -184,7 +185,7 @@ ul.list_2 li{
 ul.list_2 li a{
 	display: inline-block;
 	padding: 20px;
-	border-bottom: solid 1px #444444;
+	border-bottom: solid 1px #efefef;
 	width: 100%;
 	-webkit-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
@@ -208,8 +209,8 @@ ul.tags li a{
 	display: inline-block;
 	height: 30px;
 	line-height: 30px;
-	color:#aaaaaa;
-	background-color: #444444;
+	color:#efefef;
+	background-color: #222222;
 	padding: 0 15px;
 	font-family: "Montserrat", sans-serif;
 	font-size: 12px;
@@ -218,7 +219,7 @@ ul.tags li a{
 }
 ul.tags li a:hover{
 	background-color: #444444;
-	color:#aaaaaa;
+	color:#C71819;
 }
 
 /*social icons*/
@@ -230,7 +231,7 @@ ul.social-icons li{
 ul.social-icons li:first-child{margin:0 10px 0 0;}
 ul.social-icons li:last-child{margin:0 0 0 10px;}
 ul.social-icons li a{
-	color:#aaaaaa;
+	color:#efefef;
 	font-size: 18px;
 }
 
@@ -255,13 +256,13 @@ ul.social-icons li a{
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.2);
 	        box-shadow: 0 0 10px rgba(0,0,0,.2);
 }
-.btn.green{
+.btn.red{
 	background-color: #C71819;
 	color:#222222;
 }
-.btn.white{
-	background-color: #444444;
-	color:#C71819;
+.btn.black{
+	background-color: #222222;
+	color:#efefef;
 }
 @media (max-width: 991px) {
 	.btn{
@@ -298,13 +299,13 @@ ul.social-icons li a{
 	font-weight: 700;
 	text-transform: uppercase;
 	padding: 0 10px 20px;
-	color:#aaaaaa;
+	color:#efefef;
 	display: inline-block;
 	-webkit-transition:all .2s ease-in-out;
 			transition:all .2s ease-in-out;
 	position: relative;
 }
-.tab nav a.current{color:#aaaaaa;}
+.tab nav a.current{color:#efefef;}
 .tab .tab_single{display: none;}
 .tab .tab_single.shown{display: block;}
 
@@ -317,6 +318,7 @@ header.main-header{
 	top:0;
 	left: 0;
 	z-index: 9;
+	background-color: #222222;
 }
 /*logo*/
 header.main-header .logo{
@@ -350,7 +352,7 @@ nav.desktop-nav ul.first-level > li > a:after{
 	left: 0;
 	width: 50%;
 	height: 1px;
-	background-color: #60606e;
+	background-color: #efefef;
 	opacity: 0;
 	-webkit-transition:all .2s ease-in-out;
 			transition:all .2s ease-in-out;
@@ -374,7 +376,7 @@ nav.desktop-nav ul.first-level > li > ul.second-level{
 	top: 70px;
 	left: 0;
 	min-width: 200px;
-	background-color: #aaaaaa;
+	background-color: #222222;
 }
 nav.desktop-nav ul.first-level > li:last-child > ul.second-level{
 	left: auto;
@@ -386,13 +388,14 @@ nav.desktop-nav ul.first-level > li > ul.second-level > li > a{
 	height: 40px;
 	line-height: 40px;
 	padding: 0 20px;
-	color:#222222;
+	color:#efefef;
 }
 nav.desktop-nav ul.first-level > li > ul.second-level > li:nth-child(even) > a{
-	background-color: #444444;
+	background-color: #222222;
 }
 nav.desktop-nav ul.first-level > li > ul.second-level > li > a:hover{
 	background-color: #aaaaaa;
+	color: #222222;
 }
 @media (max-width: 991px) {
 	.menu nav.desktop-nav{display: none;}
@@ -402,7 +405,7 @@ nav.desktop-nav ul.first-level > li > ul.second-level > li > a:hover{
 nav.mobile-nav{
 	display: inline-block;
 	min-width: 300px;
-	background-color: #aaaaaa;
+	background-color: #222222;
 	position: absolute;
 	right: 0;
 	top:100px;
@@ -418,18 +421,18 @@ nav.mobile-nav > ul.first-level > li a {
 	height: 40px;
 	line-height: 40px;
 	text-align: center;
-	color: #222222;
+	color: #efefef;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 12px;
 }
 nav.mobile-nav > ul.first-level > li a:hover{
-	background-color: #aaaaaa;
+	background-color: #444444;
 }
 nav.mobile-nav > ul.first-level > li > ul.second-level{
 	display: none;
-	background-color: #cccccc;
+	background-color: #222222;
 }
 
 /*menu icon*/
@@ -442,7 +445,7 @@ header.main-header .menu-icon{
 header.main-header .menu-icon .line{
 	height: 1px;
 	width: 30px;
-	background-color: #aaaaaa;
+	background-color: #efefef;
 	-webkit-transition:all .2s ease-in-out;
 			transition:all .2s ease-in-out;
 }
@@ -474,7 +477,7 @@ footer.main-footer nav.footer-nav ul li{
 footer.main-footer nav.footer-nav ul li:first-child{margin:0 20px 0 0;}
 footer.main-footer nav.footer-nav ul li a{
 	text-transform: uppercase;
-	color:#9a9a9a;
+	color:#efefef;
 }
 @media (max-width: 991px) {
 	footer.main-footer *{
@@ -497,8 +500,9 @@ footer.main-footer nav.footer-nav ul li a{
 .site-hero{
 	height: 850px;
 	width: 100%;
-	background: #222222 url("../img/site-hero.jpg") no-repeat;
+	background: #222222 url("../img/IMG_20210414_194116.jpg") no-repeat;
 	background-size: cover;
+	/*brightness: 50%;*/
 	position: relative;
 	overflow: hidden;
 }
@@ -519,28 +523,34 @@ footer.main-footer nav.footer-nav ul li a{
 	        transform:translate(-50%, -50%);
 }
 .site-hero .small-title{
-	color:#aaaaaa;
+	color:#efefef;
 	padding: 7px 12px;
 	background-color: #C71819;
 	display: inline-block;
 }
 .site-hero .big-title{
-	font-size: 48px;
-	color:#cccccc;
+	font-size: 40px;
+	color:#efefef;
+	background-color: #222222;
+	opacity: 80%;
 	padding: 10px 40px;
-	border:solid 10px #aaaaaa;
+	/*border:solid 0.5px #444444;*/
 	display: inline-block;
 	margin-bottom: 30px;
 }
 .site-hero p{
 	width: 50%;
 	margin: 0 auto;
-	color:#aaaaaa;
+	padding: 15px;
+	color:#efefef;
+	background-color:#222222;
+	/*border:solid 0.5px #444444;*/
+	opacity: 80%;
 }
 
 /*site hero 2 */
 .site-hero_2{
-	background: url("../img/site-hero2.jpg") no-repeat;
+	background: url("../img/IMG_20210414_194116.jpg") no-repeat;
 	background-size: cover;
 	height: 500px;
 	width: 100%;
@@ -569,12 +579,19 @@ footer.main-footer nav.footer-nav ul li a{
 	max-height: 400px;
 }
 .agency p{
-	color:#aaaaaa;
+	color:#efefef;
+	background-color: #222222;
+	opacity: 90%;
+	padding: 15px;
+
 }
 .agency .section-title{
 	text-align:left;
 	width:100%;
 	margin: 0 auto 30px;
+	background-color: #222222;
+	opacity: 90%;
+	padding: 10px;
 }
 @media (max-width: 991px) {
 	.site-hero ul.slides{height: 750px;}
