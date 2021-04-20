@@ -25,7 +25,7 @@ theme.
 	11. Blog styles
 	
 */
-@import url(https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800); /* Montserrat font */
+@import url(https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800); /* Poppins font */
 @import url(https://fonts.googleapis.com/css?family=Overpass:400,300,600,700,800); /* Open sans font */
 
 /* ##### GENERAL  ##### */
@@ -45,6 +45,11 @@ body{
 }
 
 /* ##### 00 : GENERAL  ##### */
+
+#social-dark{
+	color: #222222;
+	margin-top: 20px;
+}
 section{
 	margin-top: 150px;
 }
@@ -99,11 +104,13 @@ a:hover:after{
 	width: 50%;
 }
 /*texts*/
-.montserrat-text{font-family: "Montserrat", sans-serif; font-weight: 700}
-.open-sans-text{font-family: "Open sans", sans-serif}
+.poppins-text{font-family: "Poppins", sans-serif; font-weight: 600}
+.overpass-text{font-family: "Overpass", sans-serif; font-weight: 400}
 .white-text{color: #efefef;}
 .green-text{color:#C71819;}
 .gray-text{color:#aaaaaa;}
+.dark-text{color:#222222;}
+
 
 .uppercase{text-transform: uppercase;}
 .italic{font-style: italic;}
@@ -124,7 +131,7 @@ ul.social-icons li a:hover{
 .section-title span{
 	position: relative;
 	z-index: 1;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-weight: 700;
 	font-size: 30px;
 	text-transform: uppercase;
@@ -212,7 +219,7 @@ ul.tags li a{
 	color:#efefef;
 	background-color: #222222;
 	padding: 0 15px;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-size: 12px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -241,7 +248,7 @@ ul.social-icons li a{
 	line-height: 50px;
 	min-width: 150px;
 	text-align: center;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	border-radius:0;
@@ -262,7 +269,7 @@ ul.social-icons li a{
 }
 .btn.black{
 	background-color: #222222;
-	color:#efefef;
+	color:#C71819;
 }
 @media (max-width: 991px) {
 	.btn{
@@ -294,7 +301,7 @@ ul.social-icons li a{
 			transition:all .2s ease-in-out;
 }
 .tab nav a{
-	font-family: "Montserrat", sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-size: 12px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -363,7 +370,7 @@ nav.desktop-nav ul.first-level > li:hover > a:after{
 }
 nav.desktop-nav ul.first-level > li a{
 	text-transform: uppercase;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-size: 12px;
 	font-weight: 700;
 }
@@ -422,7 +429,7 @@ nav.mobile-nav > ul.first-level > li a {
 	line-height: 40px;
 	text-align: center;
 	color: #efefef;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 12px;
@@ -526,6 +533,7 @@ footer.main-footer nav.footer-nav ul li a{
 	color:#efefef;
 	padding: 7px 12px;
 	background-color: #C71819;
+	opacity: 80%;
 	display: inline-block;
 }
 .site-hero .big-title{
@@ -581,7 +589,7 @@ footer.main-footer nav.footer-nav ul li a{
 .agency p{
 	color:#efefef;
 	background-color: #222222;
-	opacity: 90%;
+	opacity: 80%;
 	padding: 15px;
 
 }
@@ -590,7 +598,7 @@ footer.main-footer nav.footer-nav ul li a{
 	width:100%;
 	margin: 0 auto 30px;
 	background-color: #222222;
-	opacity: 90%;
+	opacity: 80%;
 	padding: 10px;
 }
 @media (max-width: 991px) {
@@ -616,7 +624,7 @@ footer.main-footer nav.footer-nav ul li a{
 	list-style: none;
 	text-transform: uppercase;
 	line-height: 30px;
-	color:#444444;
+	color:#efefef;
 }
 @media (max-width: 991px) {
 	.services .services-left{text-align: center;margin-bottom: 50px;}
@@ -636,10 +644,10 @@ footer.main-footer nav.footer-nav ul li a{
 }
 .portfolio .categories-grid .categories ul li a{
 	display: inline-block;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
-	color:#aaaaaa;
+	color:#efefef;
 	margin-left: 20px;
 }
 .portfolio .categories-grid .categories ul li a.active{
@@ -688,7 +696,7 @@ footer.main-footer nav.footer-nav ul li a{
 }
 .portfolio_item .portfolio_item_hover .item_info span{
 	display: inline-block;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	color:#60606e;
@@ -777,18 +785,18 @@ footer.main-footer nav.footer-nav ul li a{
 	background-color: transparent;
 	float: left;
 	z-index: 2;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-size: 14px;
 	color:#9a9a9a;
 }
 .textarea_1 > span{
 	position: absolute;
 	top:20px;
-	left: 20px;
+	left:20px;
 	-webkit-transform:translateY(-50%);
 	    -ms-transform:translateY(-50%);
 	        transform:translateY(-50%);
-	font-family: "Montserrat", sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-weight: 700;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -813,7 +821,7 @@ footer.main-footer nav.footer-nav ul li a{
 	position: relative;
 	background-color: transparent;
 	z-index: 2;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-size: 14px;
 	color:#9a9a9a;
 }
@@ -824,7 +832,7 @@ footer.main-footer nav.footer-nav ul li a{
 	-webkit-transform:translateY(-50%);
 	    -ms-transform:translateY(-50%);
 	        transform:translateY(-50%);
-	font-family: "Montserrat", sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-weight: 700;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -855,7 +863,7 @@ footer.main-footer nav.footer-nav ul li a{
 	border:0;
 	background-color: transparent;
 	padding: 0 20px;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-size: 12px;
 	text-transform: uppercase;
 	float: left;
@@ -991,7 +999,7 @@ footer.main-footer nav.footer-nav ul li a{
 	width: 100%;
 }
 .team_member .team_member_hover .team_member_info .team_member_name{
-	font-family: "Montserrat", sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-weight: 700;
 	font-size: 12px;
 	color:#aaaaaa;
@@ -1008,7 +1016,7 @@ footer.main-footer nav.footer-nav ul li a{
 	margin-top: 10px;
 	background-color: #C71819;
 	padding: 5px;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-weight: 700;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -1052,7 +1060,7 @@ footer.main-footer nav.footer-nav ul li a{
 	padding: 7px;
 	background-color: #C71819;
 	color:#222222;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Poppins", sans-serif;
 	text-transform: uppercase;
 	display: inline-block;
 }
@@ -1104,7 +1112,7 @@ footer.main-footer nav.footer-nav ul li a{
 }
 .post_title span.post_date{
 	font-size: 11px;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Poppins", sans-serif;
 	text-transform: uppercase;
 	background-color:#C71819;
 	padding: 5px;
@@ -1128,7 +1136,7 @@ footer.main-footer nav.footer-nav ul li a{
 }
 .post_info > span{
 	color:#444444;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-size: 14px;
 	margin-right: 20px;
 }
@@ -1161,7 +1169,7 @@ footer.main-footer nav.footer-nav ul li a{
 .sidebar .widget:last-child{margin-bottom: 0;}
 .sidebar .widget .widget_title{
 	font-size: 14px;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 30px;
@@ -1192,7 +1200,7 @@ footer.main-footer nav.footer-nav ul li a{
 	float: left;
 }
 .blog_pagination .page {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Poppins", sans-serif;
 	font-weight: 700;
 	font-size: 12px;
 	text-transform: uppercase;
