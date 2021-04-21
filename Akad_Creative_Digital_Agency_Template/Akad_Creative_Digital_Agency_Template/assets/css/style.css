@@ -63,7 +63,12 @@ section{
 	background-color: #444444;
 }
 img{width:100%;}
-#vfx-main-logo{width:20%;}
+#vfx-main-logo{
+	margin:0 auto;
+	width:150px;}
+#vfx-studio-logo{
+	margin:10px auto 0 auto;
+	width:180px;}
 
 /*blockquote*/
 blockquote.bq{
@@ -115,7 +120,7 @@ a:hover:after{
 .uppercase{text-transform: uppercase;}
 .italic{font-style: italic;}
 p{
-	font-family: "Open sans", sans-serif;
+	font-family: "Poppins", sans-serif;
 	color:#efefef;
 	line-height: 30px;
 }
@@ -328,13 +333,11 @@ header.main-header{
 	background-color: #222222;
 }
 /*logo*/
-header.main-header .logo{
-	float: left;
-	height: 100px;
+.desktop-nav .logo{
 	line-height: 100px;
 }
 
-.menu{float: right;}
+.menu{float: left;}
 
 /*desktop nav*/
 nav.desktop-nav{float: left;}
@@ -343,6 +346,7 @@ nav.desktop-nav ul.first-level > li{
 	float: left;
 	margin-right: 20px;
 	position: relative;
+	padding: 0 15px 0 15px;
 }
 nav.desktop-nav ul.first-level > li:last-child{margin-right: 0}
 nav.desktop-nav ul.first-level > li > a{
